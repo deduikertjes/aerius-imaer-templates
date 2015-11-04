@@ -1,0 +1,3 @@
+WKT,sectorId,gmlId,label,emissionHeight,heatContent,farmLodgingType,numberOfAnimals,farmLodgingSystemDefinitionType
+POINT(177412.54 442275.12),4110,ES.1,stal,5,1,A1.17,600,BWL2012.02.V2
+POINT(177412.54 442275.12),4110,ES.1,stal,5,1,A1.18,500,BWL2012.02.V2
