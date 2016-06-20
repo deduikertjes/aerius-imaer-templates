@@ -50,6 +50,6 @@ with open('example.csv', 'rt') as csvFile:
             pass
 
 output = render_gml_from_IMAERtemplate(".", "feature_members_template.gml", **data).strip()
-with open('output_modified.gml','wt') as gmlFile:
+with open('result_modified.gml','wt') as gmlFile:
     gmlFile.write(output)
 print output
