@@ -49,4 +49,7 @@ with open('example.csv', 'rt') as csvFile:
             # should not happen
             pass
 
-print render_gml_from_IMAERtemplate(".", "feature_members_template.gml", **data).strip()
+output = render_gml_from_IMAERtemplate(".", "feature_members_template.gml", **data).strip()
+with open('output_modified.gml','wt') as gmlFile:
+    gmlFile.write(output)
+print output
