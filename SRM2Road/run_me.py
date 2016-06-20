@@ -1,3 +1,4 @@
+#!/usr/bin/env python2.7
 """
 Copyright [Participants AERIUS Masterclass: Marco Duiker, Peer vd Sande, Alex Bouthoorn, Laurens vd Burgt, Rik Zegers, Lotte Dijk, Kaj Fabri, Esther Kokmeyer, Christa Blokhuis, Anneke Donkersloot, Japer Harbers, Roy Laurijsse, Luc Meegens, Marike Aalbers]
 
@@ -13,6 +14,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License. 
 """
+
+import os
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 import csv
 from gml_templating_lib import render_gml_from_IMAERtemplate, IMAERgeometry
