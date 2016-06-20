@@ -20,8 +20,8 @@ from jinja2 import FileSystemLoader, Environment
 
 # constants
 _gmlNS = "http://www.opengis.net/gml/3.2"
-_imaerNS = "http://imaer.aerius.nl/1.0"
-_imaerSchemaLocation = "http://imaer.aerius.nl/1.0/IMAER.xsd"
+_imaerNS = "http://imaer.aerius.nl/1.1"
+_imaerSchemaLocation = "http://imaer.aerius.nl/1.1/IMAER.xsd"
 
 class _WKTParser:
     """ Private class to grab gml posList and geoType from WKT
